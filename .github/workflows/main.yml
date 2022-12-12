@@ -1,8 +1,8 @@
 
 # File: .github/workflows/workflow.yml
 
-on: [push]
-
+on:
+  workflow:dispatch
 name: AzureLoginSample
 
 jobs:
