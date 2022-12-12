@@ -1,7 +1,7 @@
 # File: .github/workflows/workflow.yml
 
-on:
-  workflow:dispatch
+on: [push]
+
 name: AzureLoginSample
 
 jobs:
@@ -16,4 +16,3 @@ jobs:
     
     - run: |
         az webapp list --query "[?state=='Running']"
-
